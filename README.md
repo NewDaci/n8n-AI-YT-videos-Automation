@@ -1,4 +1,4 @@
-# Internshala - AI Video Generation Pipeline
+# AI Video Generation Pipeline
 
 A FastAPI-based application that automatically generates short videos from topics using AI. The pipeline generates scripts with Google Gemini, creates voiceovers with edge-tts, fetches stock footage from Pexels, and combines everything into a final video.
 
@@ -184,20 +184,3 @@ mkdir -p outputs
   - Video clip download sizes
   - Video composition processing
 - Video files are saved to `outputs/` and can be reused
-
-## Future Enhancements
-
-- [ ] Batch video generation
-- [ ] Custom video templates
-- [ ] Background music integration
-- [ ] Video thumbnail generation
-- [ ] Progress tracking and webhooks
-- [ ] Storage backend integration (S3, etc.)
-
-## License
-
-This project is part of the Internshala training program.
-
-## Support
-
-For issues or questions, please refer to the API documentation or check the server logs for detailed error messages.
