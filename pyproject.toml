@@ -1,0 +1,15 @@
+[project]
+name = "internshala"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "edge-tts>=7.2.7",
+    "fastapi>=0.129.0",
+    "google-genai>=1.63.0",
+    "moviepy>=2.2.1",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "uvicorn>=0.40.0",
+]
