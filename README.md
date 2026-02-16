@@ -184,3 +184,12 @@ mkdir -p outputs
   - Video clip download sizes
   - Video composition processing
 - Video files are saved to `outputs/` and can be reused
+
+## Future Enhancements (what I'd improve next)
+
+- [ ] Batch video generation
+- [ ] Custom video templates
+- [ ] Background music integration
+- [ ] Video thumbnail generation
+- [ ] Progress tracking and webhooks
+- [ ] Storage backend integration (S3, etc.)

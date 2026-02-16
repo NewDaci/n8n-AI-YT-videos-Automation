@@ -3,7 +3,7 @@ import requests
 from pathlib import Path
 
 # Get Pexels API key from environment
-PEXELS_API_KEY = 'Ai0ZCFCcTLWYkBzJFhfRftwJhKZJRtmcwoLKfu48mClAEuAqhnudn1b9'
+PEXELS_API_KEY = os.getenv("PEXELS_API_KEY")
 
 async def fetch_visuals(script):
     """Fetch video clips from Pexels API based on script content using HTTP requests."""
